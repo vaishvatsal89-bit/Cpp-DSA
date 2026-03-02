@@ -5,7 +5,7 @@ public:
         int n=nums.size();
         int end=n-1;
 
-        if(n==1)return nums[0];
+        if(n==1) return nums[0];
        
        while(st<=end){
         int mid=st+(end-st)/2;
